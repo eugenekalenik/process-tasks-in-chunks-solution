@@ -34,6 +34,8 @@ async function processTasksInChunks(tasks, chunkSize) {
     results.forEach((task) => console.log(`Task ${task} completed`));
   }
 
+  sleep(1000);
+
   console.log("All tasks completed");
 }
 
