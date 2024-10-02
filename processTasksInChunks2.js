@@ -41,3 +41,5 @@ async function sendTaskRequest(task) {
 
 // Run the main function
 processTasksInChunks(TASKS, CHUNKS);
+
+module.exports = { processTasksInChunks, FakeAPI, sleep, CHUNKS, TASKS, DELAY };
